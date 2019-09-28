@@ -9,6 +9,11 @@
             "UnauthRoleName": "office-world-map-dev-20190922153806-unauthRole",
             "StackName": "office-world-map-dev-20190922153806",
             "StackId": "arn:aws:cloudformation:ap-southeast-2:479926488096:stack/office-world-map-dev-20190922153806/63fec610-dcea-11e9-9a77-0ac3f68b351c"
+        },
+        "categories": {
+            "auth": {
+                "officeworldmapf2048b59": {}
+            }
         }
     }
 }
