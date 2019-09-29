@@ -1,9 +1,0 @@
-{
-	"auth": {
-		"officeworldmapf2048b59": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation",
-			"dependsOn": []
-		}
-	}
-}

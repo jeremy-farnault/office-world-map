@@ -2,15 +2,6 @@
   "name": "office-world-map",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "aws-amplify": "^1.1.40",
-    "aws-amplify-react": "^2.4.4",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2",
-    "styled-components": "^4.4.0",
-    "uuid": "^3.3.3"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -36,6 +27,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "aws-amplify": "^1.1.40",
+    "aws-amplify-react": "^2.4.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.2",
+    "styled-components": "^4.4.0",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
