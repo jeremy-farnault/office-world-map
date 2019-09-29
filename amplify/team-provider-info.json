@@ -1,0 +1,14 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "office-world-map-dev-20190929183917-authRole",
+      "UnauthRoleArn": "arn:aws:iam::479926488096:role/office-world-map-dev-20190929183917-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::479926488096:role/office-world-map-dev-20190929183917-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "office-world-map-dev-20190929183917-deployment",
+      "UnauthRoleName": "office-world-map-dev-20190929183917-unauthRole",
+      "StackName": "office-world-map-dev-20190929183917",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:479926488096:stack/office-world-map-dev-20190929183917/7ad401c0-e27b-11e9-a4d3-0223bf2782f0"
+    }
+  }
+}
