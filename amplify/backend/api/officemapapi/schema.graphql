@@ -1,0 +1,11 @@
+type EmployeeDetails @model {
+  avatar: String!
+  birthPlace: String!
+  description: String!
+  hobbies: [String]
+  id: ID!
+  location: String!
+  name: String!
+  role: String!
+  userId: ID
+}
