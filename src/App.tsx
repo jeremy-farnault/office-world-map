@@ -1,8 +1,17 @@
-import React from 'react'
+// @ts-ignore
+import { withAuthenticator } from 'aws-amplify-react'
+import { Auth } from 'aws-amplify'
+import React, { useEffect } from 'react'
 import logo from './logo.svg'
 import './App.css'
 
 const App: React.FC = () => {
+  useEffect(() => {
+    Auth.currentAuthenticatedUser()
+      .then(user => console.log({ user }))
+      .catch(error => console.log({ error }))
+  })
+
   return (
     <div className='App'>
       <header className='App-header'>
@@ -18,4 +27,4 @@ const App: React.FC = () => {
   )
 }
 
-export default App
+export default withAuthenticator(App, { includeGreetings: true })

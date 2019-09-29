@@ -1,1 +1,9 @@
-{}
+{
+  "auth": {
+    "officeworldmapa51db0bb": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": []
+    }
+  }
+}
