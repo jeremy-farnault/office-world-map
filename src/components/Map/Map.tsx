@@ -1,10 +1,10 @@
-import { GoogleApiWrapper } from 'google-maps-react'
+import { GoogleApiWrapper, Map } from 'google-maps-react'
 import React, { memo } from 'react'
 
-export const Map: React.FC = memo(() => {
-  return <div></div>
+const MapContainer: React.FC = memo(() => {
+  return <Map google={window.google} zoom={14} />
 })
 
-export default GoogleApiWrapper({
+export const GoogleMap = GoogleApiWrapper({
   apiKey: 'AIzaSyAyesbQMyKVVbBgKVi2g6VX7mop2z96jBo'
-})(Map)
+})(MapContainer)
