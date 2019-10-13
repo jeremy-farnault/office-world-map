@@ -6,5 +6,5 @@ const MapContainer: React.FC = memo(() => {
 })
 
 export const GoogleMap = GoogleApiWrapper({
-  apiKey: 'AIzaSyAyesbQMyKVVbBgKVi2g6VX7mop2z96jBo'
+  apiKey: 'AIzaSyCIBnvJHBDiNZGKA9yLU_4UfqEiSfI1fBc'
 })(MapContainer)
